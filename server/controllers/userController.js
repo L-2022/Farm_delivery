@@ -10,7 +10,7 @@ const generateJwt = (id, email, role) => {
   });
 };
 
-let idUser = 8;
+let idUser = 1;
 
 class UserController {
   async registration(req, res, next) {
